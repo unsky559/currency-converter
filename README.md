@@ -2,6 +2,8 @@
 
 React currency converter
 
+Deploy link: https://unsky559.github.io/currency-converter/
+
 ## Tech stack
 
 - **react**
