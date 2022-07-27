@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { currencies } from '../inputCurrency/currencies';
 import getCurrency from '../../exPoints/privatAPI';
+import CurrencyDisplay from '../currency-display/currency-display';
 
 const ActualCurse = () => {
   const [course, updateCourse] = useState(new Map());
@@ -11,7 +12,8 @@ const ActualCurse = () => {
     });
   }, []);
   return <div>
-      {currencies.EUR}: {course.get(currencies.EUR)} {currencies.USD}: {course.get(currencies.USD)}
+      <CurrencyDisplay value={course.get(currencies.EUR)} currency={currencies.EUR}/>
+      <CurrencyDisplay value={course.get(currencies.USD)} currency={currencies.USD}/>
     </div>;
 };
 
