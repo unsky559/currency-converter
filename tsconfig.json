@@ -8,5 +8,8 @@
     "allowJs": true,
     "moduleResolution": "node",
   },
-  "files": ["./declare.d.ts"]
+  "include": [
+    "./src/**/*",
+    "declare.d.ts"
+  ]
 }

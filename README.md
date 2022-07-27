@@ -1,22 +1,13 @@
-# Webpack React Typescript starter
+# Currency converter
 
-## What`s inside?
+React currency converter
+
+## Tech stack
 
 - **react**
 - **typescript**
 - **sass**
-  - sass-loader
-- style-loader
-- eslint (airbnb)
 - **webpack**
-  - html-webpack-plugin
-  - copy-webpack-plugin
-
-## Develop
-
-### Assets
-Use ```src/assets``` folder for all media assets like images or videos.
-All those will copy into ```dist/assets``` folder without any changes.
 
 ## Commands
 
