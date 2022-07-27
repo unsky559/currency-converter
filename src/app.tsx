@@ -1,9 +1,12 @@
 import * as React from 'react';
-import TestWelcomeComponent from './assets/componetns/test-welcome-component/component';
+import HomePage from './pages/home-page';
+import Header from './components/header/header';
+import './global.scss';
 
 const App = () => (
     <div>
-      <TestWelcomeComponent/>
+        <Header/>
+        <HomePage/>
     </div>
 );
 
